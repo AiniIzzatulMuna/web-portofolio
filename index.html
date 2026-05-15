@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Creative Developer</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Dot Navigation -->
+    <nav id="dotNav" class="dot-navigation">
+        <a href="#home" class="nav-dot active" data-section="home">
+            <span class="nav-label">Home</span>
+        </a>
+        <a href="#about" class="nav-dot" data-section="about">
+            <span class="nav-label">About</span>
+        </a>
+        <a href="#skills" class="nav-dot" data-section="skills">
+            <span class="nav-label">Skills</span>
+        </a>
+        <a href="#works" class="nav-dot" data-section="works">
+            <span class="nav-label">Works</span>
+        </a>
+        <a href="#contact" class="nav-dot" data-section="contact">
+            <span class="nav-label">Contact</span>
+        </a>
+    </nav>
+
+    <!-- Logo -->
+    <div class="logo-container">
+        <div class="logo-icon">
+            <img src="./img/muna.icon.jpeg" alt="Profile" class="profile-img">
+        </div>
+        <div class="logo-text">
+            <div class="logo-title">MUNA</div>
+            <div class="logo-subtitle">Creative Dev</div>
+        </div>
+    </div>
+
+
+    <!-- Menu-->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu-close" id="mobileMenuClose">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="mobile-menu-links">
+            <a href="#home" class="mobile-menu-link">Home</a>
+            <a href="#about" class="mobile-menu-link">About</a>
+            <a href="#skills" class="mobile-menu-link">Skills</a>
+            <a href="#works" class="mobile-menu-link">Works</a>
+            <a href="#contact" class="mobile-menu-link">Contact</a>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="stars-container" id="starsContainer"></div>
+
+        <div class="container">
+            <div class="hero-content">
+            
+
+                <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+                    <span class="title-line">CREATIVE</span>
+                    <span class="title-line gradient-text">DEVELOPER</span>
+                </h1>
+
+                <p class="hero-description" data-aos="fade-up" data-aos-delay="200">
+                    Crafting beautiful web experiences with <span class="text-pink">clean code</span> and
+                    <span class="text-pink">creative design</span>
+                </p>
+
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
+                    <a href="#works" class="btn btn-primary-custom">View My Work</a>
+                    <a href="#contact" class="btn btn-outline-custom">Get In Touch</a>
+                </div>
+
+                <div class="social-links" data-aos="fade-up" data-aos-delay="400">
+                    <a href="https://github.com/AiniIzzatulMuna" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.tiktok.com/@duplicatemuna?_r=1&_t=ZS-96NGsBsgH6j" class="social-link"><i class="bi bi-tiktok"></i></a>
+                    <a href="https://wa.me/6285742880833" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll</div>
+            <i class="fas fa-arrow-down"></i>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about-section">
+        <div class="gradient-orb orb-3"></div>
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">ABOUT <span class="gradient-text">ME</span></h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-image">
+                        <div class="image-placeholder p-0 overflow-hidden" style="border-radius: 20px; width: 100%; height: 450px;">
+                            <img src="./img/munasyantik.jpeg" alt="About-me" class="about-img-real"
+                            style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                        </div>
+                        <div class="decorative-blur"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-content">
+                        <h3 class="about-subtitle">Hi, I'm MUNA</h3>
+                        <p class="about-text">
+                            I'm a Software Engineering student with a deep passion for building functional 
+                            web interfaces. I love exploring how code can be transformed into beautiful 
+                            visuals through a solid UI/UX approach. Currently, I'm focusing on combining 
+                            programming logic with creative design to craft memorable digital experiences
+                            every day.
+                        </p>
+
+                        <div class="mt-4">
+                          <a href="https://docs.google.com/document/d/1NmG5KbVgfNwlptZ2_LfpszTMMpVyrckU/edit?usp=drive_link&ouid=107616291691861113868&rtpof=true&sd=true"
+                           target="_blank" class="recount-link-box">
+                          <div class="recount-icon">
+                          <i class="fas fa-file-alt"></i>
+                          </div>
+                          <div class="recount-text">
+                          <div class="recount-label">Experience</div>
+                          <div class="recount-desc">Click to read</div>
+                          </div>
+                          <i class="fas fa-external-link-alt recount-arrow"></i>
+                          </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills-section">
+        <div class="gradient-bg"></div>
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="skill-icon-wrapper">
+                    <i class="fas fa-code skill-main-icon"></i>
+                </div>
+                <h2 class="section-title">MY <span class="gradient-text">SKILLS</span></h2>
+                <p class="section-description">Technologies I use to bring ideas to life</p>
+            </div>
+
+            <div class="skills-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-card">
+                    <i class="fab fa-html5" style="color: #e34f26;"></i>
+                    <p>HTML</p>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 95%;"></div>
+                    </div>
+                    <span class="percentage">95%</span>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt" style="color: #264de4;"></i>
+                    <p>CSS</p>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                    </div>
+                    <span class="percentage">80%</span>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-github" style="color: #fff;"></i>
+                    <p>GitHub</p>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 90%;"></div>
+                    </div>
+                    <span class="percentage">90%</span>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-js-square" style="color: #f7df1e;"></i>
+                    <p>JavaScript</p>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 45%;"></div>
+                    </div>
+                    <span class="percentage">45%</span>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-bootstrap" style="color: #7952b3;"></i>
+                    <p>Bootstrap</p>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 70%;"></div>
+                    </div>
+                    <span class="percentage">70%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORKS-->
+    <section id="works" class="projects-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">MY <span class="gradient-text">WORKS</span></h2>
+                <p class="section-description">Beberapa project yang pernah saya kerjakan</p>
+            </div>
+
+            <div class="row g-4 mb-4">
+            <!-- Project 1 -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                <div class="project-card">
+                    <div class="project-img">
+                        <a href="../KOLABOrasI/KOLABOrasI/index.html" target="_blank">
+                        <img src="./img/kolaborasi smstr 1.png" alt="Portfolio">
+                        </a>
+                    </div>
+                    <h3>SeaCycle</h3>
+                    <p>Smart plastic waste management and recycling education platfrom</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/AiniIzzatulMuna/SeaCycle.git" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="https://ainiizzatulmuna.github.io/SeaCycle/" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Project 2 -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-card">
+                    <div class="project-img">
+                        <a href="../tugas 2/index.html" target="_blank">
+                        <img src="./img/tugas 2.png" alt="Portfolio">
+                        </a>
+                    </div>
+                    <h3>SchoolHub</h3>
+                    <p>Official website showcase for vocational school program</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/AiniIzzatulMuna/Landingpage.git" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href=" https://ainiizzatulmuna.github.io/Landingpage/" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-card">
+                    <div class="project-img">
+                        <a href="../tugas 3/index.html" target="_blank">
+                        <img src="./img/tugas 3.png" alt="Restaurant">
+                        </a>
+                    </div>
+                    <h3>Everbloom</h3>
+                    <p>Environmental campaign website focused on nature preservation</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/AiniIzzatulMuna/landingpage-environment.git" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href=" https://ainiizzatulmuna.github.io/landingpage-environment/" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="row g-4 justify-content-center">
+            <!-- Project 4 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                <div class="project-card">
+                    <div class="project-img">
+                        <a href="../tugas 4/index.html" target="_blank">
+                        <img src="./img/tugas 4.png" alt="Landing Page">
+                        </a>
+                    </div>
+                    <h3>Skyline Voyage</h3>
+                    <p>Curated holiday destination for an unforgettable gateway</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/AiniIzzatulMuna/LandingPage-Tugas4.git" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="https://ainiizzatulmuna.github.io/LandingPage-Tugas4/" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Project 5 -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-card">
+                    <div class="project-img">
+                        <a href="../tugas 5/index.html" target="_blank">
+                        <img src="./img/tugas 5.png" alt="Music Player">
+                        </a>
+                    </div>
+                    <h3>L'ARTISTE </h3>
+                    <p>Exclusive sneakers marketplace and custom footwear service</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/AiniIzzatulMuna/LandingPage-Sneakers.git" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="https://ainiizzatulmuna.github.io/LandingPage-Sneakers/" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+        <div class="gradient-orb orb-4"></div>
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">LET'S <span class="gradient-text">CONNECT</span></h2>
+                <p class="section-description">Have a project in mind? I'd love to hear about it!</p>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <form class="contact-form" id="contactForm">
+                        <div class="mb-4">
+                            <label class="form-label">Your Name</label>
+                            <input type="text" class="form-control custom-input" placeholder="Your name..." required>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label">Your Email</label>
+                            <input type="email" class="form-control custom-input" placeholder="your@email.com" required>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control custom-input" rows="6" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary-custom w-100">
+                            Send Message <i class="fas fa-paper-plane ms-2"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">Email Me</div>
+                                <div class="contact-value">ienenaay@gmail.com</div>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">WhatsApp</div>
+                                <div class="contact-value">+62 857 4288 0833</div>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">Location</div>
+                                <div class="contact-value">Duren, Tengaran, Jawa Tengah, Indonesia</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <!-- Brand Column -->
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <div class="logo-icon-footer">
+                        <img src="./img/muna.icon.jpeg" alt="MUNA">
+                    </div>
+                    <div>
+                        <div class="footer-brand-name">MUNA</div>
+                        <div class="footer-brand-sub">Creative Developer</div>
+                    </div>
+                </div>
+                <p class="footer-description">
+                    Crafting beautiful digital experiences through clean code, creative design, and a passion for the web.
+                </p>
+                <div class="footer-social-row">
+                    <a href="https://github.com/AiniIzzatulMuna" class="footer-social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/https.theunaa?igsh=MWl0dTNybzV6bjh3cg==" class="footer-social-link"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@duplicatemuna?_r=1&_t=ZS-96NGsBsgH6j" class="footer-social-link"><i class="bi bi-tiktok"></i></a>
+                    <a href="https://wa.me/6285742880833" class="footer-social-link"><i class="bi bi-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <!-- Navigation Links -->
+            <div>
+                <div class="footer-col-title">Navigation</div>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Services Links -->
+            <div>
+                <div class="footer-col-title">Services</div>
+                <ul class="footer-links">
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">UI/UX Design</a></li>
+                    <li><a href="#">Frontend Dev</a></li>
+                    <li><a href="#">Responsive Web</a></li>
+                    <li><a href="#">Freelance</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div>
+                <div class="footer-col-title">Contact</div>
+                <div class="footer-contact-item">
+                    <div class="footer-contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="footer-contact-text">ienenaay@gmail.com</div>
+                </div>
+                <div class="footer-contact-item">
+                    <div class="footer-contact-icon"><i class="fab fa-whatsapp"></i></div>
+                    <div class="footer-contact-text">+62 857 4288 0833</div>
+                </div>
+                <div class="footer-contact-item">
+                    <div class="footer-contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="footer-contact-text">Duren, Tengaran, Jawa Tengah, Indonesia</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom-bar">
+            <p>&copy; <span id="currentYear">2026</span> MUNA Portfolio. Made with <i class="fas fa-heart heart-icon"></i> in Indonesia</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms</a>
+                <a href="#">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
